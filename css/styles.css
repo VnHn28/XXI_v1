@@ -1,0 +1,84 @@
+body{
+	margin: 0 auto;
+	background-color: #f4f4de ;
+}
+
+#left{
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#schedule{
+	width: 360px;
+	background-color: #d6d6d6;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	height: auto;
+}
+
+#labelSch{
+	font: 28;
+	font-weight: bolder;
+}
+
+.movieSchedule{
+	padding-left: 5px;
+	background-color: #99ccff;
+	width: 350px;
+	height: 30px;
+	vertical-align: middle;
+	margin-bottom: 2px;
+}
+
+#borderLine{
+	width: 3px;
+	height: 814px;
+	background-color: black;
+	position: absolute;
+	left: 385px;
+	top: 0px;
+}
+
+.availableSeat{
+	width: 40px;
+	height: 40px;
+	margin-left: 3px;
+	margin-top: 3px;
+	float: left;
+	background-color: grey;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#seating{
+	top: 10px;
+	left: 400px;
+	width: 870px;
+	height: 740px;
+	position: absolute;
+}
+
+.stair{
+	width: 40px;
+	height: 40px;
+	margin-left: 3px;
+	margin-top: 3px;
+	float: left;
+}
+.bookedSeat{
+	width: 40px;
+	height: 40px;
+	margin-left: 3px;
+	margin-top: 3px;
+	float: left;
+	background-color: #00802b;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#bottom{
+	top: 96%;
+	position: absolute;
+   }

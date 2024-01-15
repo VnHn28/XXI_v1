@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cinema 21 Seat Booking</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div id="left">
+		<div id="inputMovie">
+			<h2>Input movie</h2>
+			<label class="labelTxt" for="movie">Movie :</label>
+			<input type="text" id="txtTitle"><br><br>
+			<label class="labelTxt" for="studio">Studio :</label>
+			<select id="cmbStudio">
+			   	<option value="1">1</option>
+			   	<option value="2">2</option>
+			   	<option value="3">3</option>
+			   	<option value="4">4</option>
+			   	<option value="5">5</option>
+			</select><br><br>
+			<label class="labelTxt" for="time">Time :</label>
+			<select id="cmbTime">
+			   	<option value="morning">08.00-10.15</option>
+			   	<option value="noon">10.45-13.00</option>
+			   	<option value="afternoon">13.30-15.45</option>
+			   	<option value="evening">16.15-18.30</option>
+			   	<option value="night">19.00-21.15</option>
+			</select><br><br>
+			<button id="btnAddMovie" style="background-color: lightgray;">Add Movie</button>
+		</div>
+		<div id="schedule">
+			<label id="labelSch" for="schedule">Schedule - </label>
+			<select id="cmbSchedule">
+			   	<option value="1">1</option>
+			   	<option value="2">2</option>
+			   	<option value="3">3</option>
+			   	<option value="4">4</option>
+			   	<option value="5">5</option>
+			</select><br><br>
+			<div id="timeTable"></div>
+		</div>
+		<div id="booking">
+			<h2>Booking</h2>
+			<label class="labelTxt" for="seats">Num of Seats :</label>
+			<input type="number" id="numSeats" min="1">
+			<button id="btnSelect" style="background-color: lightgray;">Select Seats</button>
+		</div>
+	</div>
+	<div id="borderLine"></div>
+	<div id="seating">
+		<div id="seats"></div>
+		<div id="bottom">
+			<div id="seatLeft"></div>
+			<button id="btnBook" style="background-color: lightgray;">Book Seats</button>
+		</div>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
